@@ -1,0 +1,12 @@
+{
+  "languages": [
+    {
+      "name": "SE",
+      "separator": ";",
+      "comma": ",",
+      "formulas": [
+        { "key": "AVERAGE", "value" : "MEDEL" }
+      ]
+    }
+  ]
+}
