@@ -5,148 +5,1969 @@
       "separator": ";",
       "comma": ",",
       "formulaNames": [
-        {"key":"ABS", "value":"ABS"},
-        {"key":"IFERROR", "value":"OMFEL"},
-        {"key":"ADDRESS", "value":"ADRESS"},
-        {"key":"PPMT", "value":"AMORT"},
-        {"key":"COUNT", "value":"ANTAL"},
-        {"key":"COUNTIF", "value":"ANTAL.OM"},
-        {"key":"COUNTBLANK", "value":"ANTAL.TOMMA"},
-        {"key":"COUNTA", "value":"ANTALV"},
-        {"key":"WORKDAY*", "value":"ARBETSDAGAR"},
-        {"key":"AVERAGEA", "value":"AVERAGEA"},
-        {"key":"TRUNC", "value":"AVKORTA"},
-        {"key":"ROUND", "value":"AVRUNDA"},
-        {"key":"ROUNDDOWN", "value":"AVRUNDA.NEDÅT"},
-        {"key":"ROUNDUP", "value":"AVRUNDA.UPPÅT"},
-        {"key":"PMT", "value":"BETALNING"},
-        {"key":"SUBSTITUTE", "value":"BYT.UT"},
-        {"key":"CELL", "value":"CELL"},
-        {"key":"DAY", "value":"DAG"},
-        {"key":"DCOUNT", "value":"DANTAL"},
-        {"key":"DCOUNTA", "value":"DANTALV"},
-        {"key":"DATEDIF", "value":"DATEDIF"},
-        {"key":"DATE", "value":"DATUM"},
-        {"key":"DATEVALUE", "value":"DATUMVÄRDE"},
-        {"key":"SUBTOTAL", "value":"DELSUMMA"},
-        {"key":"DGET", "value":"DHÄMTA"},
-        {"key":"DMAX", "value":"DMAX"},
-        {"key":"DAVERAGE", "value":"DMEDEL"},
-        {"key":"DMIN", "value":"DMIN"},
-        {"key":"DPRODUCT", "value":"DPRODUKT"},
-        {"key":"DSUM", "value":"DSUMMA"},
-        {"key":"OR", "value":"ELLER"},
-        {"key":"EMONTH*", "value":"EMÅNAD"},
-        {"key":"REPLACE", "value":"ERSÄTT"},
-        {"key":"EXACT", "value":"EXAKT"},
-        {"key":"MID", "value":"EXTEXT"},
-        {"key":"FALSE", "value":"FALSKT"},
-        {"key":"FIXED", "value":"FASTTAL"},
-        {"key":"ERROR.TYPE", "value":"FEL.TYP"},
-        {"key":"FREQUENCY", "value":"FREKVENS"},
-        {"key":"OFFSET", "value":"FÖRSKJUTNING"},
-        {"key":"LOWER", "value":"GEMENER"},
-        {"key":"INT", "value":"HELTAL"},
-        {"key":"FIND", "value":"HITTA"},
-        {"key":"HYPERLINK", "value":"HYPERLÄNK"},
-        {"key":"GETPIVOTDATA", "value":"HÄMTA.PIVOTDATA"},
-        {"key":"RIGHT", "value":"HÖGER"},
-        {"key":"NOT", "value":"ICKE"},
-        {"key":"TODAY", "value":"IDAG"},
-        {"key":"INDEX", "value":"INDEX"},
-        {"key":"INDIRECT", "value":"INDIREKT"},
-        {"key":"INFO", "value":"INFO"},
-        {"key":"PROPER", "value":"INITIAL"},
-        {"key":"IRR", "value":"IR"},
-        {"key":"EVEN*", "value":"JÄMN"},
-        {"key":"TIME", "value":"KLOCKSLAG"},
-        {"key":"CODE", "value":"KOD"},
-        {"key":"COLUMN", "value":"KOLUMN"},
-        {"key":"COLUMNS", "value":"KOLUMNER"},
-        {"key":"HLOOKUP", "value":"LETAKOLUMN"},
-        {"key":"VLOOKUP", "value":"LETARAD"},
-        {"key":"LOOKUP", "value":"LETAUPP"},
-        {"key":"LEN", "value":"LÄNGD"},
-        {"key":"MROUND*", "value":"MAVRUNDA"},
-        {"key":"MAX", "value":"MAX"},
-        {"key":"MAXA", "value":"MAXA"},
-        {"key":"AVERAGE", "value":"MEDEL"},
-        {"key":"MEDIAN", "value":"MEDIAN"},
-        {"key":"MIN", "value":"MIN"},
-        {"key":"MINA", "value":"MINA"},
-        {"key":"SMALL", "value":"MINSTA"},
-        {"key":"MINUTE", "value":"MINUT"},
-        {"key":"MMULT", "value":"MMULT"},
-        {"key":"MONTH", "value":"MÅNAD"},
-        {"key":"N", "value":"N"},
-        {"key":"NPV", "value":"NETNUVÄRDE"},
-        {"key":"NETWORKSDAY*", "value":"NETTOARBETSDAGAR"},
-        {"key":"NOW", "value":"NU"},
-        {"key":"PV", "value":"NUVÄRDE"},
-        {"key":"AND", "value":"OCH"},
-        {"key":"IF", "value":"OM"},
-        {"key":"AREAS", "value":"OMRÅDEN"},
-        {"key":"MATCH", "value":"PASSA"},
-        {"key":"NPER", "value":"PERIODER"},
-        {"key":"PRODUCT", "value":"PRODUKT"},
-        {"key":"SUMPRODUCT", "value":"PRODUKTSUMMA"},
-        {"key":"ROW", "value":"RAD"},
-        {"key":"ROWS", "value":"RADER"},
-        {"key":"RANK", "value":"RANG"},
-        {"key":"IPMT", "value":"RBETALNING"},
-        {"key":"TRIM", "value":"RENSA"},
-        {"key":"REPT", "value":"REP"},
-        {"key":"MOD", "value":"REST"},
-        {"key":"ROMAN", "value":"ROMERSK"},
-        {"key":"FLOOR", "value":"RUNDA.NER"},
-        {"key":"CEILING", "value":"RUNDA.UPP"},
-        {"key":"RATE", "value":"RÄNTA"},
-        {"key":"NA", "value":"SAKNAS"},
-        {"key":"CONCATENATE", "value":"SAMMANFOGA"},
-        {"key":"TRUE", "value":"SANT"},
-        {"key":"SECOND", "value":"SEKUND"},
-        {"key":"RAND", "value":"SLUMP"},
-        {"key":"RANDBETWEEN", "value":"SLUMP.MELLAN"},
-        {"key":"EOMONTH*", "value":"SLUTMÅNAD"},
-        {"key":"FV", "value":"SLUTVÄRDE"},
-        {"key":"CLEAN", "value":"STÄDA"},
-        {"key":"LARGE", "value":"STÖRSTA"},
-        {"key":"SUM", "value":"SUMMA"},
-        {"key":"SUMIF", "value":"SUMMA.OM"},
-        {"key":"SUMIFS", "value":"SUMMA.OMF"},
-        {"key":"SEARCH", "value":"SÖK"},
-        {"key":"T", "value":"T"},
-        {"key":"SIGN", "value":"TECKEN"},
-        {"key":"CHAR", "value":"TECKENKOD"},
-        {"key":"TEXT", "value":"TEXT"},
-        {"key":"TEXTJOIN", "value":"TEXTJOIN"},
-        {"key":"VALUE", "value":"TEXTNUM"},
-        {"key":"TIMEVALUE", "value":"TIDVÄRDE"},
-        {"key":"HOUR", "value":"TIMME"},
-        {"key":"TRANSPOSE", "value":"TRANSPONERA"},
-        {"key":"TRIMMEAN", "value":"TRIMMEDEL"},
-        {"key":"MODE", "value":"TYPVÄRDE"},
-        {"key":"ODD*", "value":"UDDA"},
-        {"key":"POWER", "value":"UPPHÖJT.TILL"},
-        {"key":"DOLLAR", "value":"VALUTA"},
-        {"key":"WEEKDAY", "value":"VECKODAG"},
-        {"key":"WEEKNUM*", "value":"VECKONR"},
-        {"key":"UPPER", "value":"VERSALER"},
-        {"key":"CHOOSE", "value":"VÄLJ"},
-        {"key":"LEFT", "value":"VÄNSTER"},
-        {"key":"TYPE", "value":"VÄRDETYP"},
-        {"key":"ISNONTEXT", "value":"ÄREJTEXT"},
-        {"key":"ISERR", "value":"ÄRF"},
-        {"key":"ISERROR", "value":"ÄRFEL"},
-        {"key":"ISEVEN*", "value":"ÄRJÄMN"},
-        {"key":"ISLOGICAL", "value":"ÄRLOGISK"},
-        {"key":"ISREF", "value":"ÄRREF"},
-        {"key":"ISNA", "value":"ÄRSAKNAD"},
-        {"key":"ISNUMBER", "value":"ÄRTAL"},
-        {"key":"ISTEXT", "value":"ÄRTEXT"},
-        {"key":"ISBLANK", "value":"ÄRTOM"},
-        {"key":"ISODD*", "value":"ÄRUDDA"},
-        {"key":"YEARFRAC*", "value":"ÅRDEL"}
+        {
+          "key": "ABS",
+          "value": "ABS"
+        },
+        {
+          "key": "IFERROR",
+          "value": "OMFEL"
+        },
+        {
+          "key": "ADDRESS",
+          "value": "ADRESS"
+        },
+        {
+          "key": "PPMT",
+          "value": "AMORT"
+        },
+        {
+          "key": "COUNT",
+          "value": "ANTAL"
+        },
+        {
+          "key": "COUNTIF",
+          "value": "ANTAL.OM"
+        },
+        {
+          "key": "COUNTBLANK",
+          "value": "ANTAL.TOMMA"
+        },
+        {
+          "key": "COUNTA",
+          "value": "ANTALV"
+        },
+        {
+          "key": "WORKDAY*",
+          "value": "ARBETSDAGAR"
+        },
+        {
+          "key": "AVERAGEA",
+          "value": "AVERAGEA"
+        },
+        {
+          "key": "TRUNC",
+          "value": "AVKORTA"
+        },
+        {
+          "key": "ROUND",
+          "value": "AVRUNDA"
+        },
+        {
+          "key": "ROUNDDOWN",
+          "value": "AVRUNDA.NEDÅT"
+        },
+        {
+          "key": "ROUNDUP",
+          "value": "AVRUNDA.UPPÅT"
+        },
+        {
+          "key": "PMT",
+          "value": "BETALNING"
+        },
+        {
+          "key": "SUBSTITUTE",
+          "value": "BYT.UT"
+        },
+        {
+          "key": "CELL",
+          "value": "CELL"
+        },
+        {
+          "key": "DAY",
+          "value": "DAG"
+        },
+        {
+          "key": "DCOUNT",
+          "value": "DANTAL"
+        },
+        {
+          "key": "DCOUNTA",
+          "value": "DANTALV"
+        },
+        {
+          "key": "DATEDIF",
+          "value": "DATEDIF"
+        },
+        {
+          "key": "DATE",
+          "value": "DATUM"
+        },
+        {
+          "key": "DATEVALUE",
+          "value": "DATUMVÄRDE"
+        },
+        {
+          "key": "SUBTOTAL",
+          "value": "DELSUMMA"
+        },
+        {
+          "key": "DGET",
+          "value": "DHÄMTA"
+        },
+        {
+          "key": "DMAX",
+          "value": "DMAX"
+        },
+        {
+          "key": "DAVERAGE",
+          "value": "DMEDEL"
+        },
+        {
+          "key": "DMIN",
+          "value": "DMIN"
+        },
+        {
+          "key": "DPRODUCT",
+          "value": "DPRODUKT"
+        },
+        {
+          "key": "DSUM",
+          "value": "DSUMMA"
+        },
+        {
+          "key": "OR",
+          "value": "ELLER"
+        },
+        {
+          "key": "EMONTH*",
+          "value": "EMÅNAD"
+        },
+        {
+          "key": "REPLACE",
+          "value": "ERSÄTT"
+        },
+        {
+          "key": "EXACT",
+          "value": "EXAKT"
+        },
+        {
+          "key": "MID",
+          "value": "EXTEXT"
+        },
+        {
+          "key": "FALSE",
+          "value": "FALSKT"
+        },
+        {
+          "key": "FIXED",
+          "value": "FASTTAL"
+        },
+        {
+          "key": "ERROR.TYPE",
+          "value": "FEL.TYP"
+        },
+        {
+          "key": "FREQUENCY",
+          "value": "FREKVENS"
+        },
+        {
+          "key": "OFFSET",
+          "value": "FÖRSKJUTNING"
+        },
+        {
+          "key": "LOWER",
+          "value": "GEMENER"
+        },
+        {
+          "key": "INT",
+          "value": "HELTAL"
+        },
+        {
+          "key": "FIND",
+          "value": "HITTA"
+        },
+        {
+          "key": "HYPERLINK",
+          "value": "HYPERLÄNK"
+        },
+        {
+          "key": "GETPIVOTDATA",
+          "value": "HÄMTA.PIVOTDATA"
+        },
+        {
+          "key": "RIGHT",
+          "value": "HÖGER"
+        },
+        {
+          "key": "NOT",
+          "value": "ICKE"
+        },
+        {
+          "key": "TODAY",
+          "value": "IDAG"
+        },
+        {
+          "key": "INDEX",
+          "value": "INDEX"
+        },
+        {
+          "key": "INDIRECT",
+          "value": "INDIREKT"
+        },
+        {
+          "key": "INFO",
+          "value": "INFO"
+        },
+        {
+          "key": "PROPER",
+          "value": "INITIAL"
+        },
+        {
+          "key": "IRR",
+          "value": "IR"
+        },
+        {
+          "key": "EVEN*",
+          "value": "JÄMN"
+        },
+        {
+          "key": "TIME",
+          "value": "KLOCKSLAG"
+        },
+        {
+          "key": "CODE",
+          "value": "KOD"
+        },
+        {
+          "key": "COLUMN",
+          "value": "KOLUMN"
+        },
+        {
+          "key": "COLUMNS",
+          "value": "KOLUMNER"
+        },
+        {
+          "key": "HLOOKUP",
+          "value": "LETAKOLUMN"
+        },
+        {
+          "key": "VLOOKUP",
+          "value": "LETARAD"
+        },
+        {
+          "key": "LOOKUP",
+          "value": "LETAUPP"
+        },
+        {
+          "key": "LEN",
+          "value": "LÄNGD"
+        },
+        {
+          "key": "MROUND*",
+          "value": "MAVRUNDA"
+        },
+        {
+          "key": "MAX",
+          "value": "MAX"
+        },
+        {
+          "key": "MAXA",
+          "value": "MAXA"
+        },
+        {
+          "key": "AVERAGE",
+          "value": "MEDEL"
+        },
+        {
+          "key": "MEDIAN",
+          "value": "MEDIAN"
+        },
+        {
+          "key": "MIN",
+          "value": "MIN"
+        },
+        {
+          "key": "MINA",
+          "value": "MINA"
+        },
+        {
+          "key": "SMALL",
+          "value": "MINSTA"
+        },
+        {
+          "key": "MINUTE",
+          "value": "MINUT"
+        },
+        {
+          "key": "MMULT",
+          "value": "MMULT"
+        },
+        {
+          "key": "MONTH",
+          "value": "MÅNAD"
+        },
+        {
+          "key": "N",
+          "value": "N"
+        },
+        {
+          "key": "NPV",
+          "value": "NETNUVÄRDE"
+        },
+        {
+          "key": "NETWORKSDAY*",
+          "value": "NETTOARBETSDAGAR"
+        },
+        {
+          "key": "NOW",
+          "value": "NU"
+        },
+        {
+          "key": "PV",
+          "value": "NUVÄRDE"
+        },
+        {
+          "key": "AND",
+          "value": "OCH"
+        },
+        {
+          "key": "IF",
+          "value": "OM"
+        },
+        {
+          "key": "AREAS",
+          "value": "OMRÅDEN"
+        },
+        {
+          "key": "MATCH",
+          "value": "PASSA"
+        },
+        {
+          "key": "NPER",
+          "value": "PERIODER"
+        },
+        {
+          "key": "PRODUCT",
+          "value": "PRODUKT"
+        },
+        {
+          "key": "SUMPRODUCT",
+          "value": "PRODUKTSUMMA"
+        },
+        {
+          "key": "ROW",
+          "value": "RAD"
+        },
+        {
+          "key": "ROWS",
+          "value": "RADER"
+        },
+        {
+          "key": "RANK",
+          "value": "RANG"
+        },
+        {
+          "key": "IPMT",
+          "value": "RBETALNING"
+        },
+        {
+          "key": "TRIM",
+          "value": "RENSA"
+        },
+        {
+          "key": "REPT",
+          "value": "REP"
+        },
+        {
+          "key": "MOD",
+          "value": "REST"
+        },
+        {
+          "key": "ROMAN",
+          "value": "ROMERSK"
+        },
+        {
+          "key": "FLOOR",
+          "value": "RUNDA.NER"
+        },
+        {
+          "key": "CEILING",
+          "value": "RUNDA.UPP"
+        },
+        {
+          "key": "RATE",
+          "value": "RÄNTA"
+        },
+        {
+          "key": "NA",
+          "value": "SAKNAS"
+        },
+        {
+          "key": "CONCATENATE",
+          "value": "SAMMANFOGA"
+        },
+        {
+          "key": "TRUE",
+          "value": "SANT"
+        },
+        {
+          "key": "SECOND",
+          "value": "SEKUND"
+        },
+        {
+          "key": "RAND",
+          "value": "SLUMP"
+        },
+        {
+          "key": "RANDBETWEEN",
+          "value": "SLUMP.MELLAN"
+        },
+        {
+          "key": "EOMONTH*",
+          "value": "SLUTMÅNAD"
+        },
+        {
+          "key": "FV",
+          "value": "SLUTVÄRDE"
+        },
+        {
+          "key": "CLEAN",
+          "value": "STÄDA"
+        },
+        {
+          "key": "LARGE",
+          "value": "STÖRSTA"
+        },
+        {
+          "key": "SUM",
+          "value": "SUMMA"
+        },
+        {
+          "key": "SUMIF",
+          "value": "SUMMA.OM"
+        },
+        {
+          "key": "SUMIFS",
+          "value": "SUMMA.OMF"
+        },
+        {
+          "key": "SEARCH",
+          "value": "SÖK"
+        },
+        {
+          "key": "T",
+          "value": "T"
+        },
+        {
+          "key": "SIGN",
+          "value": "TECKEN"
+        },
+        {
+          "key": "CHAR",
+          "value": "TECKENKOD"
+        },
+        {
+          "key": "TEXT",
+          "value": "TEXT"
+        },
+        {
+          "key": "TEXTJOIN",
+          "value": "TEXTJOIN"
+        },
+        {
+          "key": "VALUE",
+          "value": "TEXTNUM"
+        },
+        {
+          "key": "TIMEVALUE",
+          "value": "TIDVÄRDE"
+        },
+        {
+          "key": "HOUR",
+          "value": "TIMME"
+        },
+        {
+          "key": "TRANSPOSE",
+          "value": "TRANSPONERA"
+        },
+        {
+          "key": "TRIMMEAN",
+          "value": "TRIMMEDEL"
+        },
+        {
+          "key": "MODE",
+          "value": "TYPVÄRDE"
+        },
+        {
+          "key": "ODD*",
+          "value": "UDDA"
+        },
+        {
+          "key": "POWER",
+          "value": "UPPHÖJT.TILL"
+        },
+        {
+          "key": "DOLLAR",
+          "value": "VALUTA"
+        },
+        {
+          "key": "WEEKDAY",
+          "value": "VECKODAG"
+        },
+        {
+          "key": "WEEKNUM*",
+          "value": "VECKONR"
+        },
+        {
+          "key": "UPPER",
+          "value": "VERSALER"
+        },
+        {
+          "key": "CHOOSE",
+          "value": "VÄLJ"
+        },
+        {
+          "key": "LEFT",
+          "value": "VÄNSTER"
+        },
+        {
+          "key": "TYPE",
+          "value": "VÄRDETYP"
+        },
+        {
+          "key": "ISNONTEXT",
+          "value": "ÄREJTEXT"
+        },
+        {
+          "key": "ISERR",
+          "value": "ÄRF"
+        },
+        {
+          "key": "ISERROR",
+          "value": "ÄRFEL"
+        },
+        {
+          "key": "ISEVEN*",
+          "value": "ÄRJÄMN"
+        },
+        {
+          "key": "ISLOGICAL",
+          "value": "ÄRLOGISK"
+        },
+        {
+          "key": "ISREF",
+          "value": "ÄRREF"
+        },
+        {
+          "key": "ISNA",
+          "value": "ÄRSAKNAD"
+        },
+        {
+          "key": "ISNUMBER",
+          "value": "ÄRTAL"
+        },
+        {
+          "key": "ISTEXT",
+          "value": "ÄRTEXT"
+        },
+        {
+          "key": "ISBLANK",
+          "value": "ÄRTOM"
+        },
+        {
+          "key": "ISODD*",
+          "value": "ÄRUDDA"
+        },
+        {
+          "key": "YEARFRAC*",
+          "value": "ÅRDEL"
+        }
+      ]
+    },
+    {
+      "name": "FI",
+      "separator": "-KIITOS-",
+      "comma": "",
+      "formulaNames": [
+        {
+          "key": "CALL",
+          "value": "KUTSU"
+        },
+        {
+          "key": "EUROCONVERT",
+          "value": "EUROCONVERT"
+        },
+        {
+          "key": "GETPIVOTDATA",
+          "value": "NOUDA.PIVOT.TIEDOT"
+        },
+        {
+          "key": "REGISTER.ID",
+          "value": "REKISTERI.TUNNUS"
+        },
+        {
+          "key": "SQL.REQUEST",
+          "value": "SQL.REQUEST"
+        },
+        {
+          "key": "CUBEKPIMEMBER",
+          "value": "KUUTIOKPIJÄSEN"
+        },
+        {
+          "key": "CUBEMEMBER",
+          "value": "KUUTIONJÄSEN"
+        },
+        {
+          "key": "CUBEMEMBERPROPERTY",
+          "value": "KUUTIONJÄSENENOMINAISUUS"
+        },
+        {
+          "key": "CUBERANKEDMEMBER",
+          "value": "KUUTIONLUOKITELTUJÄSEN"
+        },
+        {
+          "key": "CUBESET",
+          "value": "KUUTIOJOUKKO"
+        },
+        {
+          "key": "CUBESETCOUNT",
+          "value": "KUUTIOJOUKKOJENMÄÄRÄ"
+        },
+        {
+          "key": "CUBEVALUE",
+          "value": "KUUTIONARVO"
+        },
+        {
+          "key": "DAVERAGE",
+          "value": "TKESKIARVO"
+        },
+        {
+          "key": "DCOUNT",
+          "value": "TLASKE"
+        },
+        {
+          "key": "DCOUNTA",
+          "value": "TLASKEA"
+        },
+        {
+          "key": "DGET",
+          "value": "TNOUDA"
+        },
+        {
+          "key": "DMAX",
+          "value": "TMAKS"
+        },
+        {
+          "key": "DMIN",
+          "value": "TMIN"
+        },
+        {
+          "key": "DPRODUCT",
+          "value": "TTULO"
+        },
+        {
+          "key": "DSTDEV",
+          "value": "TKESKIHAJONTA"
+        },
+        {
+          "key": "DSTDEVP",
+          "value": "TKESKIHAJONTAP"
+        },
+        {
+          "key": "DSUM",
+          "value": "TSUMMA"
+        },
+        {
+          "key": "DVAR",
+          "value": "TVARIANSSI"
+        },
+        {
+          "key": "DVARP",
+          "value": "TVARIANSSIP"
+        },
+        {
+          "key": "DATE",
+          "value": "PÄIVÄYS"
+        },
+        {
+          "key": "DATEVALUE",
+          "value": "PÄIVÄYSARVO"
+        },
+        {
+          "key": "DAY",
+          "value": "PÄIVÄ"
+        },
+        {
+          "key": "DAYS360",
+          "value": "PÄIVÄT360"
+        },
+        {
+          "key": "EDATE",
+          "value": "PÄIVÄ.KUUKAUSI"
+        },
+        {
+          "key": "EOMONTH",
+          "value": "KUUKAUSI.LOPPU"
+        },
+        {
+          "key": "HOUR",
+          "value": "TUNNIT"
+        },
+        {
+          "key": "MINUTE",
+          "value": "MINUUTIT"
+        },
+        {
+          "key": "MONTH",
+          "value": "KUUKAUSI"
+        },
+        {
+          "key": "NETWORKDAYS",
+          "value": "TYÖPÄIVÄT"
+        },
+        {
+          "key": "NOW",
+          "value": "NYT"
+        },
+        {
+          "key": "SECOND",
+          "value": "SEKUNNIT"
+        },
+        {
+          "key": "TIME",
+          "value": "AIKA"
+        },
+        {
+          "key": "TIMEVALUE",
+          "value": "AIKA_ARVO"
+        },
+        {
+          "key": "TODAY",
+          "value": "TÄMÄ.PÄIVÄ"
+        },
+        {
+          "key": "WEEKDAY",
+          "value": "VIIKONPÄIVÄ"
+        },
+        {
+          "key": "WEEKNUM",
+          "value": "VIIKKO.NRO"
+        },
+        {
+          "key": "WORKDAY",
+          "value": "TYÖPÄIVÄ"
+        },
+        {
+          "key": "YEAR",
+          "value": "VUOSI"
+        },
+        {
+          "key": "YEARFRAC",
+          "value": "VUOSI.OSA"
+        },
+        {
+          "key": "BESSELI",
+          "value": "BESSELI"
+        },
+        {
+          "key": "BESSELJ",
+          "value": "BESSELJ"
+        },
+        {
+          "key": "BESSELK",
+          "value": "BESSELK"
+        },
+        {
+          "key": "BESSELY",
+          "value": "BESSELY"
+        },
+        {
+          "key": "BIN2DEC",
+          "value": "BINDES"
+        },
+        {
+          "key": "BIN2HEX",
+          "value": "BINHEKSA"
+        },
+        {
+          "key": "BIN2OCT",
+          "value": "BINOKT"
+        },
+        {
+          "key": "COMPLEX",
+          "value": "KOMPLEKSI"
+        },
+        {
+          "key": "CONVERT",
+          "value": "MUUNNA (MUUNNOS EXCEL 2003?)"
+        },
+        {
+          "key": "DEC2BIN",
+          "value": "DESBIN"
+        },
+        {
+          "key": "DEC2HEX",
+          "value": "DESHEKSA"
+        },
+        {
+          "key": "DEC2OCT",
+          "value": "DESOKT"
+        },
+        {
+          "key": "DELTA",
+          "value": "SAMA.ARVO"
+        },
+        {
+          "key": "ERF",
+          "value": "VIRHEFUNKTIO"
+        },
+        {
+          "key": "ERFC",
+          "value": "VIRHEFUNKTIO.KOMPLEMENTTI"
+        },
+        {
+          "key": "GESTEP",
+          "value": "RAJA"
+        },
+        {
+          "key": "HEX2BIN",
+          "value": "HEKSABIN"
+        },
+        {
+          "key": "HEX2DEC",
+          "value": "HEKSADES"
+        },
+        {
+          "key": "HEX2OCT",
+          "value": "HEKSAOKT"
+        },
+        {
+          "key": "IMABS",
+          "value": "KOMPLEKSI.ITSEISARVO"
+        },
+        {
+          "key": "IMAGINARY",
+          "value": "KOMPLEKSI.IMAG"
+        },
+        {
+          "key": "IMARGUMENT",
+          "value": "KOMPLEKSI.ARG"
+        },
+        {
+          "key": "IMCONJUGATE",
+          "value": "KOMPLEKSI.KONJ"
+        },
+        {
+          "key": "IMCOS",
+          "value": "KOMPLEKSI.COS"
+        },
+        {
+          "key": "IMDIV",
+          "value": "KOMPLEKSI.OSAM"
+        },
+        {
+          "key": "IMEXP",
+          "value": "KOMPLEKSI.EKSP"
+        },
+        {
+          "key": "IMLN",
+          "value": "KOMPLEKSI.LN"
+        },
+        {
+          "key": "IMLOG10",
+          "value": "KOMPLEKSI.LOG10"
+        },
+        {
+          "key": "IMLOG2",
+          "value": "KOMPLEKSI.LOG2"
+        },
+        {
+          "key": "IMPOWER",
+          "value": "KOMPLEKSI.POT"
+        },
+        {
+          "key": "IMPRODUCT",
+          "value": "KOMPLEKSI.TULO"
+        },
+        {
+          "key": "IMREAL",
+          "value": "KOMPLEKSI.REAALI"
+        },
+        {
+          "key": "IMSIN",
+          "value": "KOMPLEKSI.SIN"
+        },
+        {
+          "key": "IMSQRT",
+          "value": "KOMPLEKSI.NELIÖJ"
+        },
+        {
+          "key": "IMSUB",
+          "value": "KOMPLEKSI.EROTUS"
+        },
+        {
+          "key": "IMSUM",
+          "value": "KOMPLEKSI.SUM"
+        },
+        {
+          "key": "OCT2BIN",
+          "value": "OKTBIN"
+        },
+        {
+          "key": "OCT2DEC",
+          "value": "OKTDES"
+        },
+        {
+          "key": "OCT2HEX",
+          "value": "OKTHEKSA"
+        },
+        {
+          "key": "ACCRINT",
+          "value": "KERTYNYT.KORKO"
+        },
+        {
+          "key": "ACCRINTM",
+          "value": "KERTYNYT.KORKO.LOPUSSA"
+        },
+        {
+          "key": "AMORDEGRC",
+          "value": "AMORDEGRC"
+        },
+        {
+          "key": "AMORLINC",
+          "value": "AMORLINC"
+        },
+        {
+          "key": "COUPDAYBS",
+          "value": "KORKOPÄIVÄT.ALUSTA"
+        },
+        {
+          "key": "COUPDAYS",
+          "value": "KORKOPÄIVÄT"
+        },
+        {
+          "key": "COUPDAYSNC",
+          "value": "KORKOPÄIVÄT.SEURAAVA"
+        },
+        {
+          "key": "COUPNCD",
+          "value": "KORKOMAKSU.SEURAAVA"
+        },
+        {
+          "key": "COUPNUM",
+          "value": "KORKOPÄIVÄJAKSOT"
+        },
+        {
+          "key": "COUPPCD",
+          "value": "KORKOPÄIVÄ.EDELLINEN"
+        },
+        {
+          "key": "CUMIPMT",
+          "value": "MAKSETTU.KORKO"
+        },
+        {
+          "key": "CUMPRINC",
+          "value": "MAKSETTU.LYHENNYS"
+        },
+        {
+          "key": "DB",
+          "value": "DB"
+        },
+        {
+          "key": "DDB",
+          "value": "DDB"
+        },
+        {
+          "key": "DISC",
+          "value": "DISKONTTOKORKO"
+        },
+        {
+          "key": "DOLLARDE",
+          "value": "VALUUTTA.DES"
+        },
+        {
+          "key": "DOLLARFR",
+          "value": "VALUUTTA.MURTO"
+        },
+        {
+          "key": "DURATION",
+          "value": "KESTO"
+        },
+        {
+          "key": "EFFECT",
+          "value": "KORKO.EFEKT"
+        },
+        {
+          "key": "FV",
+          "value": "TULEVA.ARVO"
+        },
+        {
+          "key": "FVSCHEDULE",
+          "value": "TULEVA.ARVO.ERIKORKO"
+        },
+        {
+          "key": "INTRATE",
+          "value": "KORKO.ARVOPAPERI"
+        },
+        {
+          "key": "IPMT",
+          "value": "IPMT"
+        },
+        {
+          "key": "IRR",
+          "value": "SISÄINEN.KORKO"
+        },
+        {
+          "key": "ISPMT",
+          "value": "ONMAKSU"
+        },
+        {
+          "key": "MDURATION",
+          "value": "KESTO.MUUNN"
+        },
+        {
+          "key": "MIRR",
+          "value": "MSISÄINEN"
+        },
+        {
+          "key": "NOMINAL",
+          "value": "KORKO.VUOSI"
+        },
+        {
+          "key": "NPER",
+          "value": "NJAKSO"
+        },
+        {
+          "key": "NPV",
+          "value": "NNA"
+        },
+        {
+          "key": "ODDFPRICE",
+          "value": "PARITON.ENS.NIMELLISARVO"
+        },
+        {
+          "key": "ODDFYIELD",
+          "value": "PARITON.ENS.TUOTTO"
+        },
+        {
+          "key": "ODDLPRICE",
+          "value": "PARITON.VIIM.NIMELLISARVO"
+        },
+        {
+          "key": "ODDLYIELD",
+          "value": "PARITON.VIIM.TUOTTO"
+        },
+        {
+          "key": "PMT",
+          "value": "MAKSU"
+        },
+        {
+          "key": "PPMT",
+          "value": "PPMT"
+        },
+        {
+          "key": "PRICE",
+          "value": "HINTA"
+        },
+        {
+          "key": "PRICEDISC",
+          "value": "HINTA.DISK"
+        },
+        {
+          "key": "PRICEMAT",
+          "value": "HINTA.LUNASTUS"
+        },
+        {
+          "key": "PV",
+          "value": "NA"
+        },
+        {
+          "key": "RATE",
+          "value": "KORKO"
+        },
+        {
+          "key": "RECEIVED",
+          "value": "SAATU.HINTA"
+        },
+        {
+          "key": "SLN",
+          "value": "STP"
+        },
+        {
+          "key": "SYD",
+          "value": "VUOSIPOISTO"
+        },
+        {
+          "key": "TBILLEQ",
+          "value": "OBLIG.TUOTTOPROS"
+        },
+        {
+          "key": "TBILLPRICE",
+          "value": "OBLIG.HINTA"
+        },
+        {
+          "key": "TBILLYIELD",
+          "value": "OBLIG.TUOTTO"
+        },
+        {
+          "key": "VDB",
+          "value": "VDB"
+        },
+        {
+          "key": "XIRR",
+          "value": "SISÄINEN.KORKO.JAKSOTON"
+        },
+        {
+          "key": "XNPV",
+          "value": "NNA.JAKSOTON"
+        },
+        {
+          "key": "YIELD",
+          "value": "TUOTTO"
+        },
+        {
+          "key": "YIELDDISC",
+          "value": "TUOTTO.DISK"
+        },
+        {
+          "key": "YIELDMAT",
+          "value": "TUOTTO.ERÄP"
+        },
+        {
+          "key": "CELL",
+          "value": "SOLU"
+        },
+        {
+          "key": "ERROR.TYPE",
+          "value": "VIRHEEN.LAJI"
+        },
+        {
+          "key": "INFO",
+          "value": "KUVAUS"
+        },
+        {
+          "key": "ISBLANK",
+          "value": "ONTYHJÄ"
+        },
+        {
+          "key": "ISERR",
+          "value": "ONVIRH"
+        },
+        {
+          "key": "ISERROR",
+          "value": "ONVIRHE"
+        },
+        {
+          "key": "ISEVEN",
+          "value": "ONPARILLINEN"
+        },
+        {
+          "key": "ISLOGICAL",
+          "value": "ONTOTUUS"
+        },
+        {
+          "key": "ISNA",
+          "value": "ONPUUTTUU"
+        },
+        {
+          "key": "ISNONTEXT",
+          "value": "ONEI_TEKSTI"
+        },
+        {
+          "key": "ISNUMBER",
+          "value": "ONLUKU"
+        },
+        {
+          "key": "ISODD",
+          "value": "ONPARITON"
+        },
+        {
+          "key": "ISREF",
+          "value": "ONVIITT"
+        },
+        {
+          "key": "ISTEXT",
+          "value": "ONTEKSTI"
+        },
+        {
+          "key": "N",
+          "value": "N"
+        },
+        {
+          "key": "NA",
+          "value": "PUUTTUU"
+        },
+        {
+          "key": "TYPE",
+          "value": "TYYPPI"
+        },
+        {
+          "key": "AND",
+          "value": "JA"
+        },
+        {
+          "key": "FALSE",
+          "value": "EPÄTOSI"
+        },
+        {
+          "key": "IF",
+          "value": "JOS"
+        },
+        {
+          "key": "IFERROR",
+          "value": "JOSVIRHE"
+        },
+        {
+          "key": "NOT",
+          "value": "EI"
+        },
+        {
+          "key": "OR",
+          "value": "TAI"
+        },
+        {
+          "key": "TRUE",
+          "value": "TOSI"
+        },
+        {
+          "key": "ADDRESS",
+          "value": "OSOITE"
+        },
+        {
+          "key": "AREAS",
+          "value": "ALUEET"
+        },
+        {
+          "key": "CHOOSE",
+          "value": "VALITSE.INDEKSI"
+        },
+        {
+          "key": "COLUMN",
+          "value": "SARAKE"
+        },
+        {
+          "key": "COLUMNS",
+          "value": "SARAKKEET"
+        },
+        {
+          "key": "HLOOKUP",
+          "value": "VHAKU"
+        },
+        {
+          "key": "HYPERLINK",
+          "value": "HYPERLINKKI"
+        },
+        {
+          "key": "INDEX",
+          "value": "INDEKSI"
+        },
+        {
+          "key": "INDIRECT",
+          "value": "EPÄSUORA"
+        },
+        {
+          "key": "LOOKUP",
+          "value": "HAKU"
+        },
+        {
+          "key": "MATCH",
+          "value": "VASTINE"
+        },
+        {
+          "key": "OFFSET",
+          "value": "SIIRTYMÄ"
+        },
+        {
+          "key": "ROW",
+          "value": "RIVI"
+        },
+        {
+          "key": "ROWS",
+          "value": "RIVIT"
+        },
+        {
+          "key": "RTD",
+          "value": "RTD"
+        },
+        {
+          "key": "TRANSPOSE",
+          "value": "TRANSPONOI"
+        },
+        {
+          "key": "VLOOKUP",
+          "value": "PHAKU"
+        },
+        {
+          "key": "ABS",
+          "value": "ITSEISARVO"
+        },
+        {
+          "key": "ACOS",
+          "value": "ACOS"
+        },
+        {
+          "key": "ACOSH",
+          "value": "ACOSH"
+        },
+        {
+          "key": "ASIN",
+          "value": "ASIN"
+        },
+        {
+          "key": "ASINH",
+          "value": "ASINH"
+        },
+        {
+          "key": "ATAN",
+          "value": "ATAN"
+        },
+        {
+          "key": "ATAN2",
+          "value": "ATAN2"
+        },
+        {
+          "key": "ATANH",
+          "value": "ATANH"
+        },
+        {
+          "key": "CEILING",
+          "value": "PYÖRISTÄ.KERR.YLÖS"
+        },
+        {
+          "key": "COMBIN",
+          "value": "KOMBINAATIO"
+        },
+        {
+          "key": "COS",
+          "value": "COS"
+        },
+        {
+          "key": "COSH",
+          "value": "COSH"
+        },
+        {
+          "key": "DEGREES",
+          "value": "ASTEET"
+        },
+        {
+          "key": "EVEN",
+          "value": "PARILLINEN"
+        },
+        {
+          "key": "EXP",
+          "value": "EKSPONENTTI"
+        },
+        {
+          "key": "FACT",
+          "value": "KERTOMA"
+        },
+        {
+          "key": "FACTDOUBLE",
+          "value": "KERTOMA.OSA"
+        },
+        {
+          "key": "FLOOR",
+          "value": "PYÖRISTÄ.KERR.ALAS"
+        },
+        {
+          "key": "GCD",
+          "value": "SUURIN.YHT.TEKIJÄ"
+        },
+        {
+          "key": "INT",
+          "value": "KOKONAISLUKU"
+        },
+        {
+          "key": "LCM",
+          "value": "PIENIN.YHT.JAETTAVA"
+        },
+        {
+          "key": "LN",
+          "value": "LUONNLOG"
+        },
+        {
+          "key": "LOG",
+          "value": "LOG"
+        },
+        {
+          "key": "LOG10",
+          "value": "LOG10"
+        },
+        {
+          "key": "MDETERM",
+          "value": "MDETERM"
+        },
+        {
+          "key": "MINVERSE",
+          "value": "MKÄÄNTEINEN"
+        },
+        {
+          "key": "MMULT",
+          "value": "MKERRO"
+        },
+        {
+          "key": "MOD",
+          "value": "JAKOJ"
+        },
+        {
+          "key": "MROUND",
+          "value": "PYÖRISTÄ.KERR"
+        },
+        {
+          "key": "MULTINOMIAL",
+          "value": "MULTINOMI"
+        },
+        {
+          "key": "ODD",
+          "value": "PARITON"
+        },
+        {
+          "key": "PI",
+          "value": "PII"
+        },
+        {
+          "key": "POWER",
+          "value": "POTENSSI"
+        },
+        {
+          "key": "PRODUCT",
+          "value": "TULO"
+        },
+        {
+          "key": "QUOTIENT",
+          "value": "OSAMÄÄRÄ"
+        },
+        {
+          "key": "RADIANS",
+          "value": "RADIAANIT"
+        },
+        {
+          "key": "RAND",
+          "value": "SATUNNAISLUKU"
+        },
+        {
+          "key": "RANDBETWEEN",
+          "value": "SATUNNAISLUKU.VÄLILTÄ"
+        },
+        {
+          "key": "ROMAN",
+          "value": "ROMAN"
+        },
+        {
+          "key": "ROUND",
+          "value": "PYÖRISTÄ"
+        },
+        {
+          "key": "ROUNDDOWN",
+          "value": "PYÖRISTÄ.DES.ALAS"
+        },
+        {
+          "key": "ROUNDUP",
+          "value": "PYÖRISTÄ.DES.YLÖS"
+        },
+        {
+          "key": "SERIESSUM",
+          "value": "SARJA.SUMMA"
+        },
+        {
+          "key": "SIGN",
+          "value": "ETUMERKKI"
+        },
+        {
+          "key": "SIN",
+          "value": "SIN"
+        },
+        {
+          "key": "SINH",
+          "value": "SINH"
+        },
+        {
+          "key": "SQRT",
+          "value": "NELIÖJUURI"
+        },
+        {
+          "key": "SQRTPI",
+          "value": "NELIÖJUURI.PII"
+        },
+        {
+          "key": "SUBTOTAL",
+          "value": "VÄLISUMMA"
+        },
+        {
+          "key": "SUM",
+          "value": "SUMMA"
+        },
+        {
+          "key": "SUMIF",
+          "value": "SUMMA.JOS"
+        },
+        {
+          "key": "SUMIFS",
+          "value": "SUMMA.JOS.JOUKKO"
+        },
+        {
+          "key": "SUMPRODUCT",
+          "value": "TULOJEN.SUMMA"
+        },
+        {
+          "key": "SUMSQ",
+          "value": "NELIÖSUMMA"
+        },
+        {
+          "key": "SUMX2MY2",
+          "value": "NELIÖSUMMIEN.EROTUS"
+        },
+        {
+          "key": "SUMX2PY2",
+          "value": "NELIÖSUMMIEN.SUMMA"
+        },
+        {
+          "key": "SUMXMY2",
+          "value": "EROTUSTEN.NELIÖSUMMA"
+        },
+        {
+          "key": "TAN",
+          "value": "TAN"
+        },
+        {
+          "key": "TANH",
+          "value": "TANH"
+        },
+        {
+          "key": "TRUNC",
+          "value": "KATKAISE"
+        },
+        {
+          "key": "AVEDEV",
+          "value": "KESKIPOIKKEAMA"
+        },
+        {
+          "key": "AVERAGE",
+          "value": "KESKIARVO"
+        },
+        {
+          "key": "AVERAGEA",
+          "value": "KESKIARVOA"
+        },
+        {
+          "key": "AVERAGEIF",
+          "value": "KESKIARVO.JOS"
+        },
+        {
+          "key": "AVERAGEIFS",
+          "value": "KESKIARVO.JOS.JOUKKO"
+        },
+        {
+          "key": "BETADIST",
+          "value": "BEETAJAKAUMA"
+        },
+        {
+          "key": "BETAINV",
+          "value": "BEETAJAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "BINOMDIST",
+          "value": "BINOMIJAKAUMA"
+        },
+        {
+          "key": "CHIDIST",
+          "value": "CHIJAKAUMA"
+        },
+        {
+          "key": "CHIINV",
+          "value": "CHIJAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "CHITEST",
+          "value": "CHITESTI"
+        },
+        {
+          "key": "CONFIDENCE",
+          "value": "LUOTTAMUSVÄLI"
+        },
+        {
+          "key": "CORREL",
+          "value": "KORRELAATIO"
+        },
+        {
+          "key": "COUNT",
+          "value": "LASKE"
+        },
+        {
+          "key": "COUNTA",
+          "value": "LASKE.A"
+        },
+        {
+          "key": "COUNTBLANK",
+          "value": "LASKE.TYHJÄT"
+        },
+        {
+          "key": "COUNTIF",
+          "value": "LASKE.JOS"
+        },
+        {
+          "key": "COUNTIFS",
+          "value": "LASKE.JOS.JOUKKO"
+        },
+        {
+          "key": "COVAR",
+          "value": "KOVARIANSSI"
+        },
+        {
+          "key": "CRITBINOM",
+          "value": "BINOMIJAKAUMA.KRIT"
+        },
+        {
+          "key": "DEVSQ",
+          "value": "OIKAISTU.NELIÖSUMMA"
+        },
+        {
+          "key": "EXPONDIST",
+          "value": "EKSPONENTIAALIJAKAUMA"
+        },
+        {
+          "key": "FDIST",
+          "value": "FJAKAUMA"
+        },
+        {
+          "key": "FINV",
+          "value": "FJAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "FISHER",
+          "value": "FISHER"
+        },
+        {
+          "key": "FISHERINV",
+          "value": "FISHER.KÄÄNT"
+        },
+        {
+          "key": "FORECAST",
+          "value": "ENNUSTE"
+        },
+        {
+          "key": "FREQUENCY",
+          "value": "TAAJUUS"
+        },
+        {
+          "key": "FTEST",
+          "value": "FTESTI"
+        },
+        {
+          "key": "GAMMADIST",
+          "value": "GAMMAJAKAUMA"
+        },
+        {
+          "key": "GAMMAINV",
+          "value": "GAMMAJAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "GAMMALN",
+          "value": "GAMMALN"
+        },
+        {
+          "key": "GEOMEAN",
+          "value": "KESKIARVO.GEOM"
+        },
+        {
+          "key": "GROWTH",
+          "value": "KASVU"
+        },
+        {
+          "key": "HARMEAN",
+          "value": "KESKIARVO.HARM"
+        },
+        {
+          "key": "HYPGEOMDIST",
+          "value": "HYPERGEOM.JAKAUMA"
+        },
+        {
+          "key": "INTERCEPT",
+          "value": "LEIKKAUSPISTE"
+        },
+        {
+          "key": "KURT",
+          "value": "KURT"
+        },
+        {
+          "key": "LARGE",
+          "value": "SUURI"
+        },
+        {
+          "key": "LINEST",
+          "value": "LINREGR"
+        },
+        {
+          "key": "LOGEST",
+          "value": "LOGREGR"
+        },
+        {
+          "key": "LOGINV",
+          "value": "LOGNORM.JAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "LOGNORMDIST",
+          "value": "LOGNORM.JAKAUMA"
+        },
+        {
+          "key": "MAX",
+          "value": "MAKS"
+        },
+        {
+          "key": "MAXA",
+          "value": "MAKSA"
+        },
+        {
+          "key": "MEDIAN",
+          "value": "MEDIAANI"
+        },
+        {
+          "key": "MIN",
+          "value": "MIN"
+        },
+        {
+          "key": "MINA",
+          "value": "MINA"
+        },
+        {
+          "key": "MODE",
+          "value": "MOODI"
+        },
+        {
+          "key": "NEGBINOMDIST",
+          "value": "BINOMIJAKAUMA.NEG"
+        },
+        {
+          "key": "NORMDIST",
+          "value": "NORM.JAKAUMA"
+        },
+        {
+          "key": "NORMINV",
+          "value": "NORM.JAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "NORMSDIST",
+          "value": "NORM.JAKAUMA.NORMIT"
+        },
+        {
+          "key": "NORMSINV",
+          "value": "NORM.JAKAUMA.NORMIT.KÄÄNT"
+        },
+        {
+          "key": "PEARSON",
+          "value": "PEARSON"
+        },
+        {
+          "key": "PERCENTILE",
+          "value": "PROSENTTIPISTE"
+        },
+        {
+          "key": "PERCENTRANK",
+          "value": "PROSENTTIJÄRJESTYS"
+        },
+        {
+          "key": "PERMUT",
+          "value": "PERMUTAATIO"
+        },
+        {
+          "key": "POISSON",
+          "value": "POISSON"
+        },
+        {
+          "key": "PROB",
+          "value": "TODENNÄKÖISYYS"
+        },
+        {
+          "key": "QUARTILE",
+          "value": "NELJÄNNES"
+        },
+        {
+          "key": "RANK",
+          "value": "ARVON.MUKAAN"
+        },
+        {
+          "key": "RSQ",
+          "value": "PEARSON.NELIÖ"
+        },
+        {
+          "key": "SKEW",
+          "value": "JAKAUMAN.VINOUS"
+        },
+        {
+          "key": "SLOPE",
+          "value": "KULMAKERROIN"
+        },
+        {
+          "key": "SMALL",
+          "value": "PIENI"
+        },
+        {
+          "key": "STANDARDIZE",
+          "value": "NORMITA"
+        },
+        {
+          "key": "STDEV",
+          "value": "KESKIHAJONTA"
+        },
+        {
+          "key": "STDEVA",
+          "value": "KESKIHAJONTAA"
+        },
+        {
+          "key": "STDEVP",
+          "value": "KESKIHAJONTAP"
+        },
+        {
+          "key": "STDEVPA",
+          "value": "KESKIHAJONTAPA"
+        },
+        {
+          "key": "STEYX",
+          "value": "KESKIVIRHE"
+        },
+        {
+          "key": "TDIST",
+          "value": "TJAKAUMA"
+        },
+        {
+          "key": "TINV",
+          "value": "TJAKAUMA.KÄÄNT"
+        },
+        {
+          "key": "TREND",
+          "value": "SUUNTAUS"
+        },
+        {
+          "key": "TRIMMEAN",
+          "value": "KESKIARVO.TASATTU"
+        },
+        {
+          "key": "TTEST",
+          "value": "TTESTI"
+        },
+        {
+          "key": "VAR",
+          "value": "VAR"
+        },
+        {
+          "key": "VARA",
+          "value": "VARA"
+        },
+        {
+          "key": "VARP",
+          "value": "VARP"
+        },
+        {
+          "key": "VARPA",
+          "value": "VARPA"
+        },
+        {
+          "key": "WEIBULL",
+          "value": "WEIBULL"
+        },
+        {
+          "key": "ZTEST",
+          "value": "ZTESTI"
+        },
+        {
+          "key": "ASC",
+          "value": "ASC"
+        },
+        {
+          "key": "BAHTTEXT",
+          "value": "BAHTTEKSTI"
+        },
+        {
+          "key": "CHAR",
+          "value": "MERKKI"
+        },
+        {
+          "key": "CLEAN",
+          "value": "SIIVOA"
+        },
+        {
+          "key": "CODE",
+          "value": "KOODI"
+        },
+        {
+          "key": "CONCATENATE",
+          "value": "KETJUTA"
+        },
+        {
+          "key": "DOLLAR",
+          "value": "VALUUTTA"
+        },
+        {
+          "key": "EXACT",
+          "value": "VERTAA"
+        },
+        {
+          "key": "FIND, FINDB",
+          "value": "ETSI, ETSIB"
+        },
+        {
+          "key": "FIXED",
+          "value": "KIINTEÄ"
+        },
+        {
+          "key": "JIS",
+          "value": "JIS"
+        },
+        {
+          "key": "LEFT, LEFTB",
+          "value": "VASEN, VASENB"
+        },
+        {
+          "key": "LEN, LENB",
+          "value": "PITUUS, PITUUSB"
+        },
+        {
+          "key": "LOWER",
+          "value": "PIENET"
+        },
+        {
+          "key": "MID, MIDB",
+          "value": "POIMI.TEKSTI, POIMI.TEKSTIB"
+        },
+        {
+          "key": "PHONETIC",
+          "value": "FONEETTINEN"
+        },
+        {
+          "key": "PROPER",
+          "value": "ERISNIMI"
+        },
+        {
+          "key": "REPLACE, REPLACEB",
+          "value": "KORVAA, KORVAAB"
+        },
+        {
+          "key": "REPT",
+          "value": "TOISTA"
+        },
+        {
+          "key": "RIGHT, RIGHTB",
+          "value": "OIKEA, OIKEAB"
+        },
+        {
+          "key": "SEARCH, SEARCHB",
+          "value": "KÄY.LÄPI, KÄY.LÄPIB"
+        },
+        {
+          "key": "SUBSTITUTE",
+          "value": "VAIHDA"
+        },
+        {
+          "key": "T",
+          "value": "T"
+        },
+        {
+          "key": "TEXT",
+          "value": "TEKSTI"
+        },
+        {
+          "key": "TRIM",
+          "value": "POISTA.VÄLIT"
+        },
+        {
+          "key": "UPPER",
+          "value": "ISOT"
+        },
+        {
+          "key": "VALUE",
+          "value": "ARVO"
+        }
       ]
     }
   ]

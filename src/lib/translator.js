@@ -15,12 +15,10 @@ const translateFormula = (inputFormula = '', language = '') => {
     return `{ ERROR: '${language}' is not a language }`
   }
 
-  let translatedFormula = inputFormula
+  let translatedFormula = replaceAll(inputFormula, ',', languageData.separator)
   languageData.formulaNames.forEach(f => {
     translatedFormula = replaceAll(translatedFormula, f.key, f.value)
   })
-
-  translatedFormula = translatedFormula.replace(',', languageData.separator)
 
   return translatedFormula
 }

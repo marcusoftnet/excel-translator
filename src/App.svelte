@@ -36,6 +36,7 @@
         class="form-control form-control-lg"
         id="toLanguage">
         <option value="SE">Swedish</option>
+        <option value="FI">Finnish</option>
       </select>
       <button
         type="button"

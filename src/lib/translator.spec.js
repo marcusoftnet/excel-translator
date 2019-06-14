@@ -24,6 +24,7 @@ describe('translating individual formulas', () => {
     const result = translator.translateFormula('AVERAGE(B2:B3)', 'SE')
     assert.strictEqual(result, 'MEDEL(B2:B3)')
   })
+
   it('handling separators - SUM(B2,B3) becomes SUMMA(B2;B3)', async () => {
     const result = translator.translateFormula('SUM(B2,B3)', 'SE')
     assert.strictEqual(result, 'SUMMA(B2;B3)')
@@ -39,7 +40,14 @@ describe('translating nested formulas', () => {
     const input = '=IFERROR(INDEX($B$2:$B$9, MATCH(0,COUNTIF($D$1:D1, $B$2:$B$9), 0)),"")'
     const result = translator.translateFormula(input, 'SE')
 
-    const expected = '=OMFEL(INDEX($B$2:$B$9; PASSA(0;ANTAL.OM($D$1:D1; $B$2:$B$9); 0));"")'
+    const expected = '=OMFEL(INDEX($B$2:$B$9; PASSA(0;ANTALOM($D$1:D1; $B$2:$B$9); 0));"")'
     assert.strictEqual(result, expected)
+  })
+})
+
+describe('Handles other languages', () => {
+  it('Translates finnish average', async () => {
+    const result = translator.translateFormula('AVERAGE(B2,B3)', 'FI')
+    assert.strictEqual(result, 'KESKIARVO(B2-KIITOS-B3)')
   })
 })
