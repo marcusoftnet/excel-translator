@@ -1,5 +1,12 @@
 <script>
-  export let name;
+  import { translateFormula } from "./lib/translator.js";
+  let inputFormula = "=SUM(B2:B34)";
+  let inputLangauge = "SE";
+  $: translatedFormula = "";
+
+  function handleClick(event) {
+    translatedFormula = translateFormula(inputFormula, inputLangauge);
+  }
 </script>
 
 <style>
@@ -22,11 +29,32 @@
         class="form-control form-control-lg"
         id="inputFormula"
         type="text"
-        placeholder="=AVERAGE(B2:B34)" />
+        bind:value={inputFormula} />
       <label class="control-label" for="toLanguage">Language</label>
-      <select class="form-control form-control-lg" id="toLanguage">
-        <option>Swedish</option>
+      <select
+        bind:value={inputLangauge}
+        class="form-control form-control-lg"
+        id="toLanguage">
+        <option value="SE">Swedish</option>
       </select>
+      <button
+        type="button"
+        class="btn btn-primary btn-lg"
+        on:click={handleClick}>
+        Translate it!
+      </button>
     </fieldset>
+    <div class="form-group">
+      <fieldset>
+        <label class="control-label" for="translated">Translated formula</label>
+        <input
+          class="form-control form-control-lg"
+          id="translated"
+          type="text"
+          bind:value={translatedFormula}
+          readonly="" />
+      </fieldset>
+    </div>
+
   </div>
 </div>

@@ -10,6 +10,7 @@
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-svelte": "^5.0.3",
     "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-json": "^4.0.0",
     "sirv-cli": "^0.4.0",
     "standard": "^12.0.1",
     "svelte": "^3.0.0"
@@ -20,7 +21,7 @@
     "dev": "run-p start:dev autobuild",
     "start": "sirv public",
     "start:dev": "sirv public --dev",
-    "test": "mocha ./src/**/*.spec.*",
+    "test": "mocha ./src/**/*.spec.* -R min -w",
     "pretest": "npm run lint",
     "lint": "standard src/**/*.js --fix"
   }
