@@ -2,11 +2,7 @@
   import { translateFormula } from "./lib/translator.js";
   let inputFormula = "=SUM(B2:B34)";
   let inputLangauge = "SE";
-  $: translatedFormula = "";
-
-  function handleClick(event) {
-    translatedFormula = translateFormula(inputFormula, inputLangauge);
-  }
+  $: translatedFormula = translateFormula(inputFormula, inputLangauge);
 </script>
 
 <style>
@@ -38,12 +34,6 @@
         <option value="SE">Swedish</option>
         <option value="FI">Finnish</option>
       </select>
-      <button
-        type="button"
-        class="btn btn-primary btn-lg"
-        on:click={handleClick}>
-        Translate it!
-      </button>
     </fieldset>
     <div class="form-group">
       <fieldset>
