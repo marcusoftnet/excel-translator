@@ -23,6 +23,7 @@
     "start:dev": "sirv public --dev",
     "test": "mocha ./src/**/*.spec.* -R min -w",
     "pretest": "npm run lint",
-    "lint": "standard src/**/*.js --fix"
+    "lint": "standard src/**/*.js --fix",
+    "deploy": "npm run build && npx now ./public -n excel-translator"
   }
 }
